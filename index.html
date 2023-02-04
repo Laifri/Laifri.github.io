@@ -1,131 +1,193 @@
 <!doctype html>
 <html>
-  <head>
-    <title> <i>Pruefung: Theoretische und informatische Grundlagen der DH</i> </title>
-  </head>
-  <body>
-    <h4>Prüfung zu theoretischen und informatischen Grundlagen der Digital Humanities</h4>
-    <h4>
-        <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>TEI</li>
-            <li>SQL</li>
-            <li>Probeklausur Aufgaben</li>
-        </ol>     
-    
+
+<head>
+    <title> Pruefung: Theoretische und informatische Grundlagen der DH </title>
+</head>
+
+<body>
+    <h4><i>Prüfung zu theoretischen und informatischen Grundlagen der Digital Humanities:</i></h4>
+    <h4><i>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>TEI</li>
+                <li>SQL</li>
+                <li>Probeklausur Aufgaben</li>
+            </ol>
+        </i></h4>
     <h1>1. HTML</h1>
     <h1>2. CSS</h1>
     <h1>3. TEI</h1>
     <h1>4. SQL</h1>
-
-
-
-
-
-
-
-
-
-
-    <h1>5. Probeklausur Aufgaben</h1>
-
     <p>
+    <h1>5. Probeklausur Aufgaben</h1>
     <b>1. TEI/XML</b>
     <i>Aufgabenstellung:</i></br>
     <i>Kodieren Sie das Gedicht "Im Herbst" in TEI.</i></br>
     <img src="bild lol.png"></br>
-    test test
-    
-    </p>
+    <i>siehe Code!</i></br>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+    type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model
+    href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+    type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        IM HERBST
+                    </title>
+                </titleStmt>
+                <publicationStmt>
+                    <p>
+                        Durch Gabriel Viehhauser als Teil einer Klausur.
+                    </p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>
+                        Gedicht "Im Herbst" einer Fassung aus dem Deutschen Textarchiv.
+                    </p>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+
+            <body>
+                <div n="1">
+                    <lg type="poem">
+
+                        <head>IM HERBST</head>
+                        <lb />
+                        <lg n="1">
+                            <l n="1">Die Sonnenblumen leuchten am Zaun,</l>
+                            <lb />
+                            <l n="2">Still sitzen Kranke im Sonnenschein.</l>
+                            <lb />
+                            <l n="3">Im Acker mühn sich singend die Frau'n,</l>
+                            <lb />
+                            <l n="4">Die Klosterglocken läuten darein.</l>
+                            <lb />
+                        </lg>
+                        <lg n="2">
+                            <l n="5">Die Vögel sagen dir ferne Mär', </l>
+                            <lb />
+                            <l n="6">Die Klosterglocken läuten darein.</l>
+                            <lb />
+                            <l n="7">Vom Hof tönt sanft die Geige her.</l>
+                            <lb />
+                            <l n="8">Heut keltern sie den braunen Wein.</l>
+                            <lb />
+                        </lg>
+                        <lg n="3">
+                            <l n="9">Da zeigt der Mensch sich froh und lind.</l>
+                            <lb />
+                            <l n="10">Heut keltern sie den braunen Wein.</l>
+                            <lb />
+                            <l n="11">Weit offen die Totenkammern sind</l>
+                            <lb />
+                            <l n="12">Und schön bemalt vom Sonnenschein.</l>
+                            <lb />
+                        </lg>
+                    </lg>
+                </div>
+                </p>
 
 
-    <p>
-    <b>2. HTML</b></br>
-    <i>Aufgabenstellung:</i> </br>
-    <i>Kodieren Sie nachfolgende Tabelle in HTML.</i>
-    <table border="1">
-            <tr>
-                <th>Autor</th>
-                <th>Titel</th>
-                <th>Gattung</th>
-            </tr>
-            <tr>
-                <td>Böll</td>
-                <td>Ansichten</td>
-                <td>Epik</td>
-            </tr>
-            <tr>
-                <td rowspan="2">Kafka</td>
-                <td>Prozess</td>
-                <td>Epik</td>  
-            </tr>
-            <tr>
-                <td>Schloss</td>
-                <td>Epik</td>
-            </tr>
-    </table>
-    </p></br>
+                <p>
+                    <b>2. HTML</b></br>
+                    <i>Aufgabenstellung:</i> </br>
+                    <i>Kodieren Sie nachfolgende Tabelle in HTML.</i>
+                <table border="1">
+                    <tr>
+                        <th>Autor</th>
+                        <th>Titel</th>
+                        <th>Gattung</th>
+                    </tr>
+                    <tr>
+                        <td>Böll</td>
+                        <td>Ansichten</td>
+                        <td>Epik</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Kafka</td>
+                        <td>Prozess</td>
+                        <td>Epik</td>
+                    </tr>
+                    <tr>
+                        <td>Schloss</td>
+                        <td>Epik</td>
+                    </tr>
+                </table>
+                </p></br>
 
-    
-    <p>
-    <b>3. CSS</b></br>
-    <i>Aufgabenstellung: </i></br>
-    <i>Wie	müsste eine CSS-Datei aussehen, die das Wort „weihnachtet“ in folgender HTMLZeile im Browser <span style="color: red" >rot</span> erscheinen lässt?</i>
-    </br><b>Von	drauß	vom	<span	class="öko">Walde</span> komm'	ich	her;	Ich	muß	euch sagen,	es	<span style="color: red;"	class="Weihnachten">weihnachtet</span> sehr!</b>
-    </p></br>
 
-    <p>
-    <b>4. SQL</b></br>
-    <i>Aufgabenstellung:</i></br>
-    <i>Mit welchem	SQL-Ausdruck können	Sie	aus	der	folgenden Tabelle alle Produktnamen im Preissegment	zwischen 100 und 150 Euro auslesen, und	zwar geordnet nach verkauften Exemplaren?</i>
-    </br> <b>Tabelle: "Produkte"</b>
-    <table border="1">
-        <tr>
-            <th>ID</th>
-            <th>Produktname</th>
-            <th>auf Lager</th>
-            <th>Verkauft</th>
-            <th>Preis in Euro</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>„I love Python“- T-shirt</td>
-            <td>764</td>
-            <td>3</td>
-            <td>110</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>„I love Python“- Sweater</td>
-            <td>530</td>
-            <td>6</td>
-            <td>130</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>„I love Python“- Schal</td>
-            <td>810</td>
-            <td>7</td>
-            <td>70</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>„I love Python“- Cap</td>
-            <td>803</td>
-            <td>2</td>
-            <td>60</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>„I love Python“- Bettwäsche</td>
-            <td>345</td>
-            <td>1</td>
-            <td>200</td>
-        </tr>
-    </table>
-</br> <i>Antwort:</i>
-</br> <b><span style ="color: red" >SELECT</span></b> Produktname <b><span style = "color: red" >FROM</span></b> Produkte <b><span style = "color: red" >WHERE </spam></b> Preis in Euro > 100 <b>AND</b> Preis in Euro < 150 <b><span style="color: red">ORDER BY</span></b> Verkauft
-</p>
-  </body>
-</html>  
+                <p>
+                    <b>3. CSS</b></br>
+                    <i>Aufgabenstellung: </i></br>
+                    <i>Wie müsste eine CSS-Datei aussehen, die das Wort „weihnachtet“ in folgender HTMLZeile im Browser
+                        <span style="color: red">rot</span> erscheinen lässt?</i>
+                    </br><b>Von drauß vom <span class="öko">Walde</span> komm' ich her; Ich muß euch sagen, es <span
+                            style="color: red;" class="Weihnachten">weihnachtet</span> sehr!</b>
+                </p></br>
+
+                <p>
+                    <b>4. SQL</b></br>
+                    <i>Aufgabenstellung:</i></br>
+                    <i>Mit welchem SQL-Ausdruck können Sie aus der folgenden Tabelle alle Produktnamen im Preissegment
+                        zwischen 100 und 150 Euro auslesen, und zwar geordnet nach verkauften Exemplaren?</i>
+                    </br> <b>Tabelle: "Produkte"</b>
+                <table border="1">
+                    <tr>
+                        <th>ID</th>
+                        <th>Produktname</th>
+                        <th>auf Lager</th>
+                        <th>Verkauft</th>
+                        <th>Preis in Euro</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>„I love Python“- T-shirt</td>
+                        <td>764</td>
+                        <td>3</td>
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>„I love Python“- Sweater</td>
+                        <td>530</td>
+                        <td>6</td>
+                        <td>130</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>„I love Python“- Schal</td>
+                        <td>810</td>
+                        <td>7</td>
+                        <td>70</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>„I love Python“- Cap</td>
+                        <td>803</td>
+                        <td>2</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>„I love Python“- Bettwäsche</td>
+                        <td>345</td>
+                        <td>1</td>
+                        <td>200</td>
+                    </tr>
+                </table>
+                </br> <i>Antwort:</i>
+                </br> <b><span style="color: red">SELECT</span></b> Produktname <b><span
+                        style="color: red">FROM</span></b> Produkte <b><span style="color: red">WHERE </spam></b> Preis
+                in Euro > 100 <b>AND</b> Preis in Euro < 150 <b><span style="color: red">ORDER BY</span></b> Verkauft
+                    </p>
+            </body>
+
+</html>
